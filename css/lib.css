@@ -1,0 +1,459 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding:0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+body{
+	background-color: #F5FAFD ;
+}
+#main{
+
+	border:1px solid;
+	min-height:1024px;
+	min-width:1366px;
+	clear:left;
+	
+	border: #C9F solid;}
+
+
+
+#header{
+	width: 1366px;
+	clear: both;
+	border: solid 1px #999;
+	height: 160px;
+	background-color: #D4F2F2;
+	margin-top: auto;
+	
+	
+	
+		margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+
+		
+
+
+#header_left {
+	float: left;
+	height: 24px;
+	width:200px;
+}
+#header_right {
+	float: right;
+	height: 24px;
+	width:500px;
+	padding-right: 0px;
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+#find{
+	width:1366px;
+	height:24px;
+		margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#find{
+	background-color:#ACE6E6;
+	}
+
+ul{list-style: none;}
+#nav,#main{width:320px;
+           margin:0px auto;
+		   border:1px solid #999;}
+#nav {
+	width:600px;
+	
+	line-height: 24px;
+margin-left:145px;
+	  background:#666;}
+#nav a {
+
+	display: block;
+	width: 80px;
+	text-align: center;
+	color: #000;
+}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{
+
+text-decoration:none;        
+		font-weight:bold;
+		background:#0ca3d2;
+		color:#fff;}
+#nav li {width: 80px; 
+         float:left;}
+#nav li ul {
+			z-index:1000;
+
+	display: none;}
+#nav li ul li{
+
+	float: left;
+              width: 80px;			  
+              background:#ACE6E6;}
+#nav li ul li a{
+	
+             display: block;
+              float:left;
+             width: 60px;
+			 text-align:left;
+			 padding-left:20px;}
+			 
+			 
+			 
+			 
+			 
+			 
+#main{height:250px;
+	  border-top:none;
+	  color:#999;
+	  
+	  
+	  	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	  
+	  
+	  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#search {
+	position:relative;
+	margin-top:10px;
+	height:124px;
+	width: 1366px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	clear:both;
+}
+
+.button{
+	right:1000px;
+	width: 48px;
+	height: 40px;
+	border: none;
+	cursor: pointer;
+	position: absolute;
+	top:33px;
+	left: 900px;
+	background-image: url(../images/搜索.gif);
+	background-repeat: no-repeat;
+	
+	}
+	
+	.logo {
+		width:362px;
+		height:124px;
+	margin-left:0px;
+	margin-top:0px;
+	border:1px solid;
+	}
+.text{
+	width: 398px;
+	height: 18px;
+	border: 2px solid #ff2832;
+	position: absolute;
+	left: 400px;
+	top: 35px;
+	z-index: 2;
+	color: #323232;
+	font: 12px/18px 'Hiragino Sans GB',"simsun",Arial;
+	outline: 0;
+	margin-left: 50px;
+	padding-top: 9px;
+	padding-right: 0;
+	padding-bottom: 9px;
+	padding-left: 10px;
+	background-image: none;
+}
+	
+	
+
+
+
+
+
+#number {
+ width:88px;
+ position:absolute;
+ left:10px;
+ bottom:10px;
+}
+#number li {
+ padding-left:6px;
+ float:left;
+ text-indent:-9999px;
+ width:16px;
+ height:16px;
+ overflow:hidden;
+ background-image:url(../images/number1.png);
+ background-repeat:no-repeat;
+}
+#buttom_0 {
+ background-position:0 0;
+}
+#buttom_1 {
+ background-position:-22px 0;
+}
+#buttom_2 {
+ background-position:-44px 0;
+}
+#buttom_3 {
+ background-position:-66px 0;
+}
+#buttom_0.selected {
+ background-position:0 -16px;
+}
+#buttom_1.selected {
+ background-position:-22px -16px;
+}
+#buttom_2.selected {
+ background-position:-44px -16px;
+}
+#buttom_3.selected {
+ background-position:-66px -16px;
+}
+.content{
+	
+	
+	}
+.content_middle{
+	float: left;
+	width:1120px;
+
+}
+.content_middle .content {
+	margin-bottom: 10px;
+	width: 1366px;
+	height: 480px;
+	overflow: hidden;
+	position: relative;
+	margin-left: 200px;
+	right:200px;
+}
+.content_middle .pic,.content_middle .num{
+	position: absolute;
+
+}
+.content_middle .pic li{
+	 
+ list-style:none;
+ display:inline;
+
+}
+.content_middle .pic img{
+
+	height: 470px;
+	display: block;
+	
+}
+.content_middle .num{
+
+right:5px;
+bottom:5px;		
+
+}
+.content_middle .num li {
+ float: left;
+ color: #069;
+ text-align: center;
+ line-height: 16px;
+ width: 16px;
+ height: 16px;
+ font-family: Arial;
+ font-size: 12px;
+ cursor: pointer;
+ overflow: hidden;
+ margin: 3px 1px;
+ border: 1px solid #069;
+ background-color: #fff;
+}
+.content_middle .num li.on{
+ color: #fff;
+ line-height: 16px;
+ width: 16px;
+ height: 16px;
+ font-size: 14px;
+ margin: 3px 1px;
+ border: 1px solid #069;
+ background-color: #069;
+ font-weight: bold;
+}
+
+
+
+
+
+	#list {
+		background-color:#FFF;
+		filter:alpha(opacity=80); 
+		-moz-opacity:0.8;
+		 opacity:0.8;
+		position:absolute;
+		z-index:1000;
+	float: left;
+	width: 180px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+    .book_sort{
+		background-color:#FFF;
+		border:solid 1px #999;
+		margin-bottom:10px;}
+	.book_sort_bg{
+		background-color:#fff0d9;
+		padding-left:10px;
+		color:#882d00;
+		font-size:14px;
+		height:25px;
+		font-weight:bold;
+		line-height:30px;}
+	.book_sort_bottom a{
+		background-color:#FFF;
+	text-decoration: none;
+	color: #000;
+	margin: 0px 10px 0px 10px;
+	line-height: 25px;
+}
+
+	.book_cate{
+		
+		background-color:#FFF;
+		padding:10px 0px 0px 10px;
+		font-weight:bold;}
+.color {
+	background-image: url(../images/color.jpg);
+	background-repeat: repeat-x;
+	width:1366px;
+	height: 5px;
+		margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#right_bottom {
+	position:relative;
+	height:450px;
+	width:1120px;
+	text-decoration: none;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	clip: rect(auto,auto,500px,auto);
+	margin-left: 200px;
+	
+}
+#footer {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#footer ul li {
+	float: right;
+		line-height: normal;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+#footer {
+	height: 50px;
+	width: 800px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#footer ul{
+
+	
+}
+
+
+
+
+
+#adver{
+	
+	position:absolute;
+	right:50px;
+	top:100px;
+	z-index:1000;
+}
+#main #list .book_sort .book_cate a {
+	color: #000;
+}
+#main #right_bottom table tr td a {
+	color: #000;
+	text-decoration: none;
+}
+#main #right_bottom table tr td #p {
+	text-decoration: none;
+	color: #FFF;
+}

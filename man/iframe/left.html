@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+
+
+<style> 
+body{
+	background-color:#ACE6E6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+td {
+	font-size: 14px;
+	color: #000000;
+	line-height: 50px
+}
+a:visited {font-size: 13px; color: #000000; text-decoration: none}
+a:active {font-size: 13px; color: #000000}
+
+a:hover {font-size: 13px; color: #999999}
+a:link {font-size: 13px; color: #000000; text-decoration: none}
+.bg{
+	background-image:url(image/bg.jpg);
+	background-repeat:repeat-y;
+	}
+
+
+.bg tr td li div a {
+	text-decoration: none;
+}
+</style>
+<script type="text/javascript"> 
+function show(d1,d2,d3,d4){
+if(document.getElementById(d1).style.display=='none'){
+document.getElementById(d1).style.display='block';
+document.getElementById(d2).style.display='none';
+document.getElementById(d3).style.display='none';
+document.getElementById(d4).style.display='none';
+}
+else{document.getElementById(d1).style.display='none';}
+}
+</script>
+</head>
+
+<body>
+<table width="180" height="300px"border="0" cellspacing="0" cellpadding="0" class="bg">
+  <tr> 
+    <td>
+        <li>
+          <div onClick=show('1','2','3','4','5','6','7') ><a href="../iframe/inf.html" target="rightFrame">网站基本信息管理</a></div>
+          <div id="1" style="display:none"> &nbsp;&nbsp;【】首页<BR>
+            &nbsp;&nbsp;【】登录<BR>
+            &nbsp;&nbsp;【】注册 </div>
+        </li>
+		<li>
+          <div onClick=show('2','1','3','4','5','6','7') ><a href="../iframe/news.html" target="rightFrame">新闻信息管理</a></div>
+          <div id="2" style="display:none">&nbsp;&nbsp;【】新闻编辑<BR>
+            &nbsp;&nbsp;【】新闻列表<BR>
+            &nbsp;&nbsp;【】推荐新闻列表 
+             &nbsp;&nbsp;【】新闻类型管理</div>
+        </li>
+		<li>
+          <div onClick=show('3','1','2','4','5','6','7') ><a href="#">产品信息中心</a></div>
+          <div id="3" style="display:none">&nbsp;&nbsp;【】产品数量<BR>
+            &nbsp;&nbsp;【】产品类型<BR>
+            &nbsp;&nbsp;【】产地<BR>
+			&nbsp;&nbsp;【】销量</div>
+        </li>
+		<li>
+          <div onClick=show('4','1','2','3','5','6','7') ><a href="#">招聘信息管理</a></div>
+          <div id="4" style="display:none">&nbsp;&nbsp;【】招聘信息<BR>
+            &nbsp;&nbsp;【】人才需求<BR>
+            &nbsp;&nbsp;【】培训教育</div>
+        </li>
+        <li>
+          <div onClick=show('5','1','2','3','4','6','7') ><a href="#">留言信息管理</a></div>
+          <div id="5" style="display:none">&nbsp;&nbsp;【】售后留言<BR>
+            &nbsp;&nbsp;【】员工留言<BR>
+            &nbsp;&nbsp;【】投诉建议</div>
+        </li>
+        <li>
+          <div onClick=show('6','1','2','3','4','5','7') ><a href="#">用户信息管理</a></div>
+          <div id="6" style="display:none">&nbsp;&nbsp;【】个人信息<BR>
+            &nbsp;&nbsp;【】朋友圈<BR>
+            &nbsp;&nbsp;【】密保安全</div>
+        </li>
+        
+        <li>
+          <div onClick=show('7','1','2','3','4','5','6') ><a href="#">个人管理</a></div>
+          <div id="7" style="display:none">&nbsp;&nbsp;【】我的购物车<BR>
+            &nbsp;&nbsp;【】我的收藏<BR>
+            &nbsp;&nbsp;【】我的订单</div>
+        </li>
+		</td>
+  </tr>
+</table>
+</body>
+</html>
